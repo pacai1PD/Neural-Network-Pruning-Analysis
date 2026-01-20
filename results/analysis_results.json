@@ -1,0 +1,142 @@
+{
+  "pruning_impact": {
+    "l1": {
+      "low_pruning_avg_drop": -1.25,
+      "mid_pruning_avg_drop": -2.9450000000000003,
+      "high_pruning_avg_drop": -3.509999999999991,
+      "best_pruning_rate": 0.9,
+      "best_accuracy": 79.21,
+      "worst_pruning_rate": 0.1,
+      "worst_accuracy": 75.51
+    },
+    "l2": {
+      "low_pruning_avg_drop": -1.2149999999999963,
+      "mid_pruning_avg_drop": -3.0449999999999946,
+      "high_pruning_avg_drop": -3.5600000000000023,
+      "best_pruning_rate": 0.9,
+      "best_accuracy": 79.26,
+      "worst_pruning_rate": 0.1,
+      "worst_accuracy": 75.7
+    },
+    "random": {
+      "low_pruning_avg_drop": -2.3299999999999983,
+      "mid_pruning_avg_drop": 1.75,
+      "high_pruning_avg_drop": 9.049999999999997,
+      "best_pruning_rate": 0.1,
+      "best_accuracy": 78.5,
+      "worst_pruning_rate": 0.9,
+      "worst_accuracy": 66.65
+    },
+    "lottery": {
+      "low_pruning_avg_drop": -1.154999999999994,
+      "mid_pruning_avg_drop": -3.069999999999993,
+      "high_pruning_avg_drop": -3.6099999999999994,
+      "best_pruning_rate": 0.9,
+      "best_accuracy": 79.31,
+      "worst_pruning_rate": 0.1,
+      "worst_accuracy": 75.41
+    }
+  },
+  "optimal_rates": {
+    "l1": {
+      "pruning_rate": 0.9,
+      "accuracy": 79.21,
+      "accuracy_drop": -3.509999999999991,
+      "params": "620810",
+      "sparsity": 0.10000290382530587
+    },
+    "l2": {
+      "pruning_rate": 0.9,
+      "accuracy": 79.26,
+      "accuracy_drop": -3.5600000000000023,
+      "params": "620810",
+      "sparsity": 0.10000290382530587
+    },
+    "random": {
+      "pruning_rate": 0.1,
+      "accuracy": 78.5,
+      "accuracy_drop": -2.799999999999997,
+      "params": "620810",
+      "sparsity": 0.09999645088018172
+    },
+    "lottery": {
+      "pruning_rate": 0.9,
+      "accuracy": 79.31,
+      "accuracy_drop": -3.6099999999999994,
+      "params": "620810",
+      "sparsity": 0.10000290382530587
+    }
+  },
+  "same_sparsity_comparison": {
+    "l1": {
+      "accuracy": 78.64,
+      "pruning_rate": 0.5,
+      "sparsity": 0.5,
+      "params": "620810"
+    },
+    "l2": {
+      "accuracy": 78.57,
+      "pruning_rate": 0.5,
+      "sparsity": 0.5,
+      "params": "620810"
+    },
+    "random": {
+      "accuracy": 75.76,
+      "pruning_rate": 0.5,
+      "sparsity": 0.5,
+      "params": "620810"
+    },
+    "lottery": {
+      "accuracy": 78.8,
+      "pruning_rate": 0.5,
+      "sparsity": 0.5,
+      "params": "620810"
+    }
+  },
+  "summary_stats": {
+    "dense": {
+      "accuracy": 75.7,
+      "params": "620810"
+    },
+    "l1": {
+      "max_accuracy": 79.21,
+      "min_accuracy": 75.51,
+      "avg_accuracy": 78.08000000000001,
+      "max_accuracy_drop": 0.18999999999999773,
+      "min_accuracy_drop": -3.509999999999991,
+      "avg_accuracy_drop": -2.3800000000000097,
+      "best_pruning_rate": 0.9,
+      "compression_ratio_at_best": 1.0
+    },
+    "l2": {
+      "max_accuracy": 79.26,
+      "min_accuracy": 75.7,
+      "avg_accuracy": 78.116,
+      "max_accuracy_drop": 0.0,
+      "min_accuracy_drop": -3.5600000000000023,
+      "avg_accuracy_drop": -2.415999999999997,
+      "best_pruning_rate": 0.9,
+      "compression_ratio_at_best": 1.0
+    },
+    "random": {
+      "max_accuracy": 78.5,
+      "min_accuracy": 66.65,
+      "avg_accuracy": 74.122,
+      "max_accuracy_drop": 9.049999999999997,
+      "min_accuracy_drop": -2.799999999999997,
+      "avg_accuracy_drop": 1.578000000000003,
+      "best_pruning_rate": 0.1,
+      "compression_ratio_at_best": 1.0
+    },
+    "lottery": {
+      "max_accuracy": 79.31,
+      "min_accuracy": 75.41,
+      "avg_accuracy": 78.112,
+      "max_accuracy_drop": 0.29000000000000625,
+      "min_accuracy_drop": -3.6099999999999994,
+      "avg_accuracy_drop": -2.411999999999992,
+      "best_pruning_rate": 0.9,
+      "compression_ratio_at_best": 1.0
+    }
+  }
+}
