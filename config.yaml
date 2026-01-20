@@ -1,0 +1,37 @@
+# 神经网络剪枝策略效果分析与优化项目配置文件
+
+# 随机种子
+random_seed: 42
+
+# 数据配置
+data:
+  root: "./data"
+  batch_size: 128
+  val_split: 0.1
+  num_workers: 2
+
+# 模型配置
+model:
+  name: "SimpleCNN"
+  num_classes: 10
+  dropout_rate: 0.5
+
+# 训练配置
+training:
+  baseline_epochs: 10
+  finetune_epochs: 5
+  learning_rate: 0.001
+  finetune_learning_rate: 0.0001
+  weight_decay: 0.0001
+
+# 剪枝配置
+pruning:
+  methods: ["l1", "l2", "random", "lottery"]
+  rates: [0.1, 0.3, 0.5, 0.7, 0.9]
+
+# 结果配置
+results:
+  dir: "./results"
+  save_json: true
+  save_csv: true
+  save_plots: true
